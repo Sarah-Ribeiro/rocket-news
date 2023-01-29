@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content image";
+
+    grid-template-columns: 50% 50%;
+
+    overflow: hidden;
+}
+
+header {
+    grid-area: content;
+    background: #121214;
+    left: 36px;
+}
+
+main {
+    position: absolute;
+    left: 36px;
+}
+
+/* Header */
+
+.text {
+    margin-top: 92px;
+    margin-left: 36px;
+}
+
+.title {
+    color: #08C05E;
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.subtitle {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 9px;
+}
+
+.sub-subtitle {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+
+/* Image */
+
+.logo {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 389px;
+    height: 94px;
+}
+
+#image {
+    grid-area: image;
+    height: 100vh;
+    display: flex;
+}
+
+/* Form */
+
+.insert {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #A8A8A8;
+    margin-bottom: 18px;
+}
+
+.email {
+    height: 48px;
+    margin-top: 444px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: white;
+    padding: 0;
+    width: 1000px;
+    height: 48px;
+
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+.information {
+    color: #A8A8A8;
+    border-left: solid #04D361 6px;
+}
+
+::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    padding-left: 15px;
+
+    color: #6A6A6A;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background: #8257E5;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+
+button:hover {
+    background-color: #6242ad;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+}
+
+.last-text {
+    color: #8257E5;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    vertical-align: top;
+    outline: none;
+    text-decoration: none;
+}
+
+.arrow {
+    vertical-align: middle;
+}
