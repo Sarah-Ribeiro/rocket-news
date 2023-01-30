@@ -1,4 +1,4 @@
-# rocket-news
+<h1>rocket-news</h1>
 
 This is a application made with HTML, CSS and JavaScript
 
