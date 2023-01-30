@@ -1,7 +1,7 @@
 <h1>rocket-news</h1>
 
-This is a application made with HTML, CSS and JavaScript
+<p>This is a application made with HTML, CSS and JavaScript</p>
 
-Made according with the challange gived by rocketseat in their website
+<main>Made according with the challange gived by rocketseat in their website</main>
 
-Made by Sarah Ribeiro
+<footer>Made by Sarah Ribeiro</footer>
